@@ -15,8 +15,6 @@ Morselate is a simple web application that converts **English text** into **Mors
 
 ## Screenshots
 
-![Screenshot](screenshot.png)  
-*(You can replace this with an actual screenshot of your app)*
 
 ---
 
@@ -38,7 +36,7 @@ Morselate is a simple web application that converts **English text** into **Mors
 ---
 
 ## Project Structure
-
+```
 Morselate/
 │
 ├── css/
@@ -50,7 +48,7 @@ Morselate/
 ├── contact.html
 ├── about.html
 └── README.md
-
+```
 
 ---
 
