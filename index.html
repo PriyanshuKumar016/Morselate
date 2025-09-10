@@ -17,16 +17,23 @@
     </header>
     <div class="main-container">
         <div class="div1">
-            <div class="inputContainer">
-                <h3>English</h3>
-                <textarea name="text-input" class="text-area" id="input-box" placeholder="Enter your text" rows="10" cols="100"></textarea>
+            <div class="text-boxes">
+                <div class="inputContainer">
+                    <h3>English</h3>
+                    <textarea name="text-input" class="text-area" id="input-box" placeholder="Enter your text" rows="10" ></textarea>
+                </div>
+        
+                <div class="outputContainer">
+                    <h3>Morse Code</h3>
+                    <textarea name="text-output" class="text-area" id="output-box" rows="10" readonly></textarea>
+                </div>
             </div>
-    
-            <div class="outputContainer">
-                <h3>Morse Code</h3>
-                <textarea name="text-output" class="output-area" id="output-box" rows="10" cols="100" readonly></textarea>
+            
+            <div class="button-container">
+                <button id="clear-button" class="clearbtn" >Clear</button>
+                <button id="translate-button" class="translate">Translate</button>
+                <button id="copy-button" class="copybtn">Copy</button>
             </div>
-            <button id="translate-button" class="translate">Translate</button>
         </div>
     </div>
 </body>

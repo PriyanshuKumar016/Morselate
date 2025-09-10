@@ -1,5 +1,3 @@
-
-
 // Morse code dictionary
 const morseCode = {
     "A": ".-",
@@ -42,6 +40,9 @@ const morseCode = {
 };
 
 
+
+//--- Logic to translate Englid to Morse Code ------
+// function to translate---
 function engToMorse(input){
     let ans="";
     for(let ch of input){
@@ -49,8 +50,9 @@ function engToMorse(input){
     }
     return ans;
 }
+//---
 
-// Pseudo-code / concept
+//logic for input and output---
 let inputBox = document.getElementById("input-box");
 let outputBox = document.getElementById("output-box");
 let button = document.getElementById("translate-button")
@@ -60,3 +62,23 @@ button.addEventListener("click", function(){
     let result = engToMorse(returnAns);
     outputBox.value = result;
 })
+// ---
+// ---------------------------------------
+
+
+//----- copy button logic 
+let copyButton = document.getElementById("copy-button");
+copyButton.addEventListener("click", function(){
+    navigator.clipboard.writeText(outputBox.value);
+    alert("Copied");
+})
+//-----
+
+
+//----- copy button logic 
+let clearButton = document.getElementById("clear-button")
+clearButton.addEventListener("click", function(){
+    inputBox.value = "";
+    outputBox.value = "";
+})
+//------
