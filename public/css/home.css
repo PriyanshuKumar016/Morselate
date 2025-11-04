@@ -3,9 +3,7 @@
     padding: 0px;
 }
 
-body{
-    /* width: 99vw; */
-}
+
 
 textarea{
     resize:none;
@@ -19,8 +17,8 @@ header{
     align-items: center;
     height: 10vh;
     padding-left: 50px;
-    background-color: #016263;
-    color: rgb(145, 228, 214);
+    background-color: #163343;
+    color: rgb(244, 244, 244);
 
 }
 
@@ -37,11 +35,20 @@ nav a{
     font-size: 1.2rem;
 }
 
+h3{
+    color:#9c9c9c;
+    font-family: sans-serif;
+}
+.text-area{
+    background-color: #163343;
+    border-color: transparent;
+    color: rgb(217, 219, 95);
+}
 
 .main-container{
     width: 100%;
     height: 90vh;
-    background-color: #000000;
+    background: linear-gradient(135deg, #1d2b53 0%, #406d96 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +82,6 @@ nav a{
     flex: 1;
     width: 30%;
 }
-.text-area{
-    background-color: rgba(53, 108, 104, 0.861);
-    border-color: transparent;
-    color: rgb(45, 111, 106);
-}
 
 .button-container{
     width: 50%;
@@ -93,6 +95,8 @@ nav a{
     padding: 1vh;
     border: 2px solid black;
     width: 5vw;
+    background-color: #163343;
+    color: rgb(244, 244, 244);
 }
 
 .copybtn{
@@ -100,25 +104,35 @@ nav a{
     padding: 1vh;
     border: 2px solid black;
     width: 5vw;
+    background-color: #163343;
+    color: rgb(244, 244, 244);
 }
 .translate{
     margin: 2vh;
     padding: 1vh;
     border: 2px solid black;
     width: 10vw;
+    background-color: #163343;
+    color: rgb(244, 244, 244);
 }
 
 
 footer{
-    /* width: 90vw; */
     padding: 5px;
     height: 20vh;
-    background-color: aquamarine;
+    background-color: #163343;
+    color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer1{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 .footer1 a{
