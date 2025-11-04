@@ -1,7 +1,6 @@
 
 // ======== updated code with node.js(Express) implementation.
 
-// public/js/home.js
 
 // Grab UI elements
 const inputBox = document.getElementById("input-box");
